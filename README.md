@@ -1,12 +1,12 @@
-# bring-back-the-easy-button
+# bring-back-the-easy-button 🦩🦩🦩
 
 Does anyone remember the heady days when there was an easy button to deploy from a GitHub code repo to OpenShift ?
 
 [![button](https://raw.githubusercontent.com/eformat/launch-service/master/static/img/launchbutton_light.svg)](https://github.com/eformat/pet-battle-api/actions/workflows/oc_deploy.yaml)
 
-Don't get me wrong, i love ArgoCD, GitOps and all things CICD .. but sometimes i want the easy button.
+Don't get me wrong, i 💕 ArgoCD, GitOps and all things CICD .. but sometimes i want the easy button 🔘
 
-Here in Queensland i have reinvented a modern take on the easy button using [GitHub Actions](https://github.com/eformat/pet-battle-api/blob/master/.github/workflows/oc_deploy.yaml). This incorporates some very handy [redhat-actions](https://github.com/redhat-actions) and a bit of scripting. Checkout the [source code](https://github.com/eformat/pet-battle-api) if you want to learn more.
+Here in Queensland 🏖️ i have reinvented a modern take on the easy button using [GitHub Actions](https://github.com/eformat/pet-battle-api/blob/master/.github/workflows/oc_deploy.yaml). This incorporates some very handy [redhat-actions](https://github.com/redhat-actions) and a bit of scripting. Checkout the [source code](https://github.com/eformat/pet-battle-api) if you want to learn more.
 
 ![images/github-easy-button.gif](images/github-easy-button.gif)
 

@@ -8,7 +8,7 @@ Don't get me wrong, i 💕 ArgoCD, GitOps and all things CICD .. but sometimes i
 
 Here in Queensland 🏖️ i have reinvented a modern take on the easy button using [GitHub Actions](https://github.com/petbattle/pet-battle-api/blob/master/.github/workflows/oc_deploy.yaml). This incorporates some very handy [redhat-actions](https://github.com/redhat-actions) and a bit of scripting. Checkout the [source code](https://github.com/petbattle/pet-battle-api) if you want to learn more.
 
-![images/github-easy-button.gif](images/github-easy-button.gif)
+[![images/github-easy-button.gif](images/github-easy-button.gif)](https://youtu.be/5wb7lnkmENU)
 
 If you like to automate the api call, you can checkout the [workflow dispatch documentation](https://docs.github.com/rest/reference/actions#create-a-workflow-dispatch-event).
 

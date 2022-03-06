@@ -29,3 +29,5 @@ curl -vv \
   https://api.github.com/repos/${REPONAME}/actions/workflows/${ACTION}/dispatches \
   -d "{\"ref\":\"${REF}\", \"inputs\":{\"ocpAPI\": \"${OCP_API}\", \"ocpToken\": \"${OCP_TOKEN}\", \"s2iBuilder\": \"${S2I_BUILDER}\"}}"
 ```
+
+**Note** github actions dispatcher events are not secure even with the use of `add-mask` to try to prevent the Token being printed to the logs. In the deployed version, these have been made into `secrets` which are masked in the logs. You loose the flexibility of choosing a cluster from the menu drop down 🤷. The upstream request for making this more secure is [here](https://github.com/actions/runner/issues/475).
